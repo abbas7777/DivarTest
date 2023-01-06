@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable-v24/ic_chat_24dp.xml" value="0.113" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable-v24/ic_daste_24dp.xml" value="0.113" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable-v24/ic_home_24dp.xml" value="0.113" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable-v24/ic_person_24dp.xml" value="0.113" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable-v24/ic_plus_24dp.xml" value="0.113" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/add_vector.xml" value="0.113" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/ba_circle_anim.xml" value="0.1885" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/ic_alert_vector.xml" value="0.201" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/ic_arrow_back_ios_24.xml" value="0.113" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/ic_back_vector.xml" value="0.201" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.113" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.113" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/ic_daste_vector.xml" value="0.1" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/ic_home_gray600_24dp.xml" value="0.1" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/ic_noConnectioan_vector.xml" value="0.113" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/ic_no_connection_vector.xml" value="0.201" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/ic_plus_24dp.xml" value="0.1" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/drawable/tryagain_vector.xml" value="0.201" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/layout/activity_regester.xml" value="0.15" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/layout/fragment_category.xml" value="0.20416666666666666" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/layout/fragment_page_adver.xml" value="0.20416666666666666" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/layout/item_ads.xml" value="0.25" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/layout/item_cat.xml" value="0.20416666666666666" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/layout/item_lin_ads.xml" value="0.14814814814814814" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/layout/item_linearAds.xml" value="0.16666666666666666" />
+        <entry key="..\:/Barname Nevisi/proj/andriod/Divar/app/src/main/res/menu/bottem_navigation.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

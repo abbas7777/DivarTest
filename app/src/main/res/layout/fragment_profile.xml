@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile.ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_back_vector" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_ProfileFragment"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginRight="66dp"
+            android:background="@color/gray_50"
+            android:elevation="12dp"
+            app:cardCornerRadius="12dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/ic_profile_gray_500_vector" />
+
+                <TextView
+                    android:id="@+id/txt_ProfileFragment_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/ubunturegular"
+                    android:textColor="@color/gray_600" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_ProfileFragment_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/cv_ProfileFragment"
+            android:layout_marginTop="26dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_ProfileFragment_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:elevation="42dp"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:id="@+id/linlay_ProfileFragment_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ic_no_connection_vector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:drawablePadding="4dp"
+                android:text="@string/stxt_chatfragment_problemconnecttoserver"
+                android:textColor="@color/gray_600"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txt_ProfileFragment_tryagain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="46dp"
+                android:drawablePadding="8dp"
+                android:text="@string/stxt_Splash_tryagain"
+                android:textColor="@color/gray_600"
+                android:textSize="16sp"
+                android:visibility="visible"
+                app:drawableRightCompat="@drawable/tryagain_vector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linlay_ProfileFragment_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white"
+            android:elevation="12dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ic_alert_vector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:drawablePadding="4dp"
+                android:gravity="center"
+                android:text="@string/stxt_profile_check"
+                android:textColor="@color/gray_600"
+                android:textSize="@dimen/_11sdp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/btn_ProfileFragment_enter"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_p500_shape"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="@string/stxt_login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11sdp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/pb_HomeFragment_loading"
+            android:layout_width="@dimen/_42sdp"
+            android:layout_height="@dimen/_42sdp"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progressbar_circle_shape"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
